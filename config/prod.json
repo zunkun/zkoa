@@ -1,3 +1,17 @@
 {
-  "PORT": 3000
+  "PORT": 3000,
+  "postgres": {
+    "localhost": "127.0.0.1",
+    "port": 5432,
+    "db": "zkoa",
+    "username": "root",
+    "password": "123456"
+  },
+  "mysql": {
+    "localhost": "127.0.0.1",
+    "port": 3303,
+    "db": "zkoa",
+    "username": "root",
+    "password": "123456"
+  }
 }
