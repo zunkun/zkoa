@@ -9,6 +9,7 @@ const fs = require('fs');
 const path = require('path');
 const log = require('./utils/logs/log');
 
+app.keys = ['abcd1234', '11235813abcd'];
 // middlewares
 app.use(bodyparser({
 	enableTypes: ['json', 'form', 'text']

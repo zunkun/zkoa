@@ -5,7 +5,7 @@ const http = require('http');
 const log = require('../utils/logs/log');
 
 const env = process.env.NODE_ENV === 'prod' ? require('../config/prod.json') : require('../config/dev.json');
-console.log(2, process.env.NODE_ENV);
+
 for (const key in env) {
 	if (env[key] && !process.env[key]) {
 		process.env[key] = env[key];
